@@ -7,7 +7,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram import types
 from aiogram.types import BotCommand
 
-bot = Bot(token='8064115621:AAFXFK_RAq-R913HJQzfdemhcra866-T_eY')
+bot = Bot(token='')
 dp = Dispatcher()
 router = Router()
 
