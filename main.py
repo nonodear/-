@@ -4,7 +4,6 @@ from aiogram import Bot, Dispatcher, F, Router, types
 from aiogram.filters import Command
 from aiogram.types import Message, LinkPreviewOptions, InlineKeyboardButton, InlineKeyboardMarkup, InputFile, chat
 from aiogram.utils.keyboard import InlineKeyboardBuilder
-from aiogram import types
 from aiogram.types import BotCommand
 
 bot = Bot(token='')
