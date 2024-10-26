@@ -60,8 +60,8 @@ async def menu(bot: Bot):
         BotCommand(command='/lucky', description='игрок'.lower())
     ]
     await bot.set_my_commands(main_menu_commands)
-dp.startup.register(menu)
-dp.run_polling(bot)
+#dp.startup.register(menu)
+#dp.run_polling(bot)
 
 @router.message(F.text.lower() == 'выставки в москве')
 async def exhibit(message: Message):
